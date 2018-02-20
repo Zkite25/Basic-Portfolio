@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+</head>
+<body background= "https://www.toptal.com/designers/subtlepatterns/patterns/circles-dark.png">
+
+    <div class="header">
+            <a class="Name">Zachary Kite</a>
+            <div class="header-right">
+              <a class="active" href="#home">About</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <div class="column content">
+                <h2>Contact</h2>
+      <form action="/action_page.php">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="John Smith">
+    
+        <label for="lname">Email</label>
+        <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+    
+        <label for="lname">Message</label>
+        <textarea> </textarea>
+      
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+          <div class="nav">
+                <a><span>Connect with Me</span></a>
+                <a><br></a>
+                <a href="https://github.com/Zkite25"><img src=https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_square_black-128.png alt="github" align="right" width="33%" height="85"></a>
+                <a href="https://www.linkedin.com/in/zacharykite/"><img src=https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-128.png alt="linkedin" align="right" width="33%" height="85"></a>
+                <a href="https://stackoverflow.com/users/9353045/z-kite"><img src=https://cdn3.iconfinder.com/data/icons/inficons/128/stackoverflow.png alt="stackflow" align="right" width="33%" height="85"></a>
+              </div>
+
+          <div class="footer">
+                <p>@ Copyright 2018 Zachary Kite</p>
+              </div>
+      <style>
+
+
+    * {box-sizing: border-box;}
+
+body {
+}
+
+.header {
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #4aaaa5; 
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    border-bottom: 2px solid darkgray;
+    height: 70px;
+}
+
+
+.header a {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+}
+
+.header a.Name {
+    overflow: hidden;
+    background-color: #4aaaa5; 
+    color: #ffffff;
+    font-family: 'Georgia';
+    font-size: 30px;
+    padding-right: 20px;
+    padding-left: 60px;
+    height: 1000px;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+.header a {
+    float: none;
+    text-align: left;
+  }
+.header-right {
+    float: none;
+    border-right: 1px grey
+  }
+}
+
+.column {
+    float: left;
+    background-color: #ffffff;
+    margin-right: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 650px;        
+    }
+
+h2 {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    font-family: 'Georgia';
+    font-size: 25px;
+    padding-left: 60px;
+    text-align: left;
+    width: 650px;
+        }
+
+form {
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+        }
+
+
+.footer {
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+    margin-top: 30px;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    font-size: 15px;
+    text-align: center;
+        }
+
+.nav {
+    width: 270px;
+    height: 220px;
+    float:right;
+    background:  #ffffff;
+    overflow-x: hidden;
+    padding-top: 60px;
+    margin-top: 20px;
+    position: absolute;
+    display: inline
+}
+
+.nav a {
+    display:inline;
+    display: block;
+    text-align:center;
+    color: #4aaaa5; 
+    font-family: 'Georgia';
+    font-size: 25px;
+}
+.nav span{
+    border-bottom: grey
+}
+     </style>
+    </body>
+</html>
